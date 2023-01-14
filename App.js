@@ -1,35 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const heading = React.createElement(
-  'h1',
-  { className: 'heading', key: 'h1' },
-  'Namaste React!'
-);
-const heading2 = React.createElement(
-  'h2',
-  { className: 'heading2', key: 'h2' },
-  'Namaste React!'
-);
+
+const heading = <h1>Namaste React!</h1>
+
+// Functional Component
+const Header2 = ({title}) => (<h2>Namaste {title}!</h2>)
 
 function buttonClick() {
   alert('Clicked');
 }
-const button = React.createElement(
-  'button',
-  { key: 'b1', onClick: buttonClick },
-  'Click Me!'
-);
 
-const container = React.createElement(
-  'div',
-  {
-    id: 'container',
-  },
-  [heading, heading2, button]
-);
+
+// Component Composition && Passing Props to Componenet
+const Container = () => (<div> <Header2 title='Rajendra'> </Header2> {heading} <button onClick={()=>buttonClick()}>ClickMe!</button></div>)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 //overrides the root element children
-root.render(container);
+root.render(<Container/>);
