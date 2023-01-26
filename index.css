@@ -1,3 +1,46 @@
+
+.app {
+margin: 10px;
+}
+
 #container{
     background-color: green;
+}
+
+.logo {
+    width: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    border: 1px dotted grey;
+}
+
+.header > ul {
+    padding-right:10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.header > ul > li {
+    font-weight: bold;
+    font-size: large;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+  }
+
+.footer{
+    text-align: center;
+    /*border: 1px dotted none; */
 }
