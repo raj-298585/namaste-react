@@ -5,8 +5,8 @@ import Restaurant from './Restaurant';
 
 const RestaurantList = () => {
   return (
-    <div className='grid-container'>
-      { restaurants.map((restaurant) => (<div><Restaurant key={restaurant.data.id} data={restaurant.data} /></div>)) }
+    <div className='flex gap-10 flex-wrap'>
+      { restaurants.map((restaurant) => (<Restaurant key={restaurant.data.id} data={restaurant.data} />)) }
     </div>
   )
 }

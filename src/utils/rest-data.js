@@ -1006,5 +1006,145 @@ export const restaurants = [
         "new": false
       },
       "subtype": "basic"
-    }
+    },
+    {
+      "type": "restaurant",
+      "data": {
+        "type": "F",
+        "id": "167101",
+        "name": "Meghana Foods",
+        "uuid": "9bdcbf89-5b7d-497f-abc4-0e6ddc0048fd",
+        "city": "1",
+        "area": "Arakere",
+        "totalRatingsString": "1000+ ratings",
+        "cloudinaryImageId": "cvo1djhbwrgfqd64k0tl",
+        "cuisines": [
+          "Biryani",
+          "Andhra",
+          "South Indian",
+          "North Indian",
+          "Chinese",
+          "Seafood"
+        ],
+        "tags": [
+          
+        ],
+        "costForTwo": 50000,
+        "costForTwoString": "₹500 FOR TWO",
+        "deliveryTime": 27,
+        "minDeliveryTime": 27,
+        "maxDeliveryTime": 27,
+        "slaString": "27 MINS",
+        "lastMileTravel": 3,
+        "slugs": {
+          "restaurant": "meghana-foods-arekere-arekere",
+          "city": "bangalore"
+        },
+        "cityState": "1",
+        "address": "No. 23/1,Bannerghatta Road, Arekere Village, Begur Hobli, Bangalore",
+        "locality": "Bannergatta Main Road",
+        "parentId": 635,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [
+          
+        ],
+        "aggregatedDiscountInfo": {
+          "header": "50% off",
+          "shortDescriptionList": [
+            {
+              "meta": "50% off | Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+          "header": "50% OFF",
+          "shortDescriptionList": [
+            {
+              "meta": "Use WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "descriptionList": [
+            {
+              "meta": "50% off up to ₹100 | Use code WELCOME50",
+              "discountType": "Percentage",
+              "operationType": "RESTAURANT"
+            }
+          ],
+          "subHeader": "",
+          "headerType": 0,
+          "superFreedel": ""
+        },
+        "chain": [
+          
+        ],
+        "feeDetails": {
+          "fees": [
+            
+          ],
+          "totalFees": 0,
+          "message": "",
+          "title": "",
+          "amount": "",
+          "icon": ""
+        },
+        "availability": {
+          "opened": true,
+          "nextOpenMessage": "",
+          "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
+        "badges": {
+          "imageBased": [
+            
+          ],
+          "textBased": [
+            
+          ],
+          "textExtendedBadges": [
+            
+          ]
+        },
+        "lastMileTravelString": "3 kms",
+        "hasSurge": false,
+        "sla": {
+          "restaurantId": "167101",
+          "deliveryTime": 27,
+          "minDeliveryTime": 27,
+          "maxDeliveryTime": 27,
+          "lastMileTravel": 3,
+          "lastMileDistance": 0,
+          "serviceability": "SERVICEABLE",
+          "rainMode": "NONE",
+          "longDistance": "NOT_LONG_DISTANCE",
+          "preferentialService": false,
+          "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "4.4",
+        "totalRatings": 1000,
+        "new": false
+      },
+      "subtype": "basic"
+    },
 ]

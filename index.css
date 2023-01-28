@@ -1,4 +1,9 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
 .app {
 margin: 10px;
 }
@@ -38,9 +43,26 @@ margin: 10px;
     display: flex;
     flex-direction: row;
     column-gap: 50px;
+    row-gap: 50px;
+    flex-wrap: wrap;
   }
+
+.restaurant{
+    text-align: justify;
+    flex: 1 0 21%;
+}
+
+.restaurant > img{
+   width: 100%;
+}
+
+.address{
+    font-size: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-align: justify;
+}
 
 .footer{
     text-align: center;
-    /*border: 1px dotted none; */
 }
+*/
