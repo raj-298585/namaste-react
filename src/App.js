@@ -12,7 +12,7 @@ export const ThemeContext = createContext(null);
 // App Layout
 const AppLayout = (props) => {
   return (
-    <Provider store={store}>
+    <Provider store={store}> {/* registering redux store into an app*/}
       <div className="app">
         <ThemeContext.Provider value="dark">
           <Header />

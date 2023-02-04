@@ -20,7 +20,7 @@ const Header = () => {
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
-            <li>Cart - {items.length} Items</li>
+            <li className='font-bold'>Cart - {items.length} Items</li>
         </ul>
         </div>
     </div>
