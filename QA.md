@@ -37,3 +37,9 @@
 
 * `async` and defer attributes for script tag allows the execution of script wrt to the HTML parsing execution.
 * `async` attribute pauses the execution of HTML parsing while script is running, where as `defer` allows the script to run only after the HTML parsing is completely done.
+
+
+### 9.What is lifting the state up?
+Sometimes the state of multiple components have to be changed together. In this case, remove the state of those two components and move it to the immediate ancestor of those components, and pass it down to them via props. This process is called 'lifting the state' up.
+* Ex: According with more than one panel
+
