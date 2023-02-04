@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 const Title = () => (
 <a href='/'>
@@ -6,7 +7,10 @@ const Title = () => (
 </a>
 );
 
-const Header = () => (
+const Header = () => {
+    const items = useSelector(state => state.carts.items);
+
+    return (
     <div className='flex w-full'>
         <div className='w-6/12'>
             <Title/>
@@ -16,9 +20,10 @@ const Header = () => (
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
+            <li>Cart - {items.length} Items</li>
         </ul>
         </div>
     </div>
-);
+)};
 
 export default Header;

@@ -1,21 +1,26 @@
 import React, { createContext } from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import store from "./utils/store";
+
 
 export const ThemeContext = createContext(null);
 
 // App Layout
 const AppLayout = (props) => {
   return (
-    <div className="app">
-      <ThemeContext.Provider value="dark">
-        <Header />
-        <Container />
-        <Footer />
-      </ThemeContext.Provider>
-    </div>
+    <Provider store={store}>
+      <div className="app">
+        <ThemeContext.Provider value="dark">
+          <Header />
+          <Container />
+          <Footer />
+        </ThemeContext.Provider>
+      </div>
+    </Provider>
   );
 };
 
