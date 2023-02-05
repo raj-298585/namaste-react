@@ -12,4 +12,4 @@
  * Add `"presets": [["@babel/preset-env", {"targets": {"node": "current"}}]]` in .babelrc file
  * Now write your test cases
  * $ npm run jest
- * Install another package for JSX in our test cases: $ npm i -D @babel/preset-react
+ * Install another package for JSX in our test cases:` $ npm i -D @babel/preset-react` and add it to the `.babelrc` file
