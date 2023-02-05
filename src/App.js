@@ -10,7 +10,7 @@ import store from "./utils/store";
 export const ThemeContext = createContext(null);
 
 // App Layout
-const AppLayout = (props) => {
+export const AppLayout = (props) => {
   return (
     <Provider store={store}> {/* registering redux store into an app*/}
       <div className="app">

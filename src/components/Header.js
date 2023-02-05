@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 const Title = () => (
 <a href='/'>
-    <img className='w-48' src='https://www.logodesignteam.com/images/portfolio-images/kitchen-cookery-logo-design/kitchen-cookery-logo-design7.jpg'></img>
+    <img data-testid="logo" className='w-48' src='https://www.logodesignteam.com/images/portfolio-images/kitchen-cookery-logo-design/kitchen-cookery-logo-design7.jpg'></img>
 </a>
 );
 
@@ -20,7 +20,7 @@ const Header = () => {
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
-            <li className='font-bold'>Cart - {items.length} Items</li>
+            <li data-testid="cart" className='font-bold'>Cart - {items.length} Items</li>
         </ul>
         </div>
     </div>
